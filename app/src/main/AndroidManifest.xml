@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Pr_22_106_km"
         tools:targetApi="31">
         <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
             android:name=".Abonementi"
             android:exported="false" />
         <activity

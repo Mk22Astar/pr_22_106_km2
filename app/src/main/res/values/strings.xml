@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name" translatable="false">pr_22_106_km</string>
+    <string name="menu" translatable="false">Меню</string>
+    <string name="abonementi" translatable="false">Абонементы</string>
+    <string name="prepodavateli" translatable="false">Преподаватели</string>
+    <string name="prepodName" translatable="false">Александра Александровна</string>
+    <string name="prepodinfo" translatable="false">Я этим занимаюсь\nТакой опыт работы люблю писать и читать\nКрестиком вышиваю\nВсех люблю и\nобнимаю!</string>
+    <string name="zanyatieTime" translatable="false">c 15:00 до 16:30</string>
+    <string name="zanyatieTip" translatable="false">Начинающая группа</string>
+    <string name="zanyatiePrepodName" translatable="false">Иван Иванкин\nАлександра Александрова</string>
+    <string name="Zapisatsya" translatable="false">Записаться</string>
 </resources>

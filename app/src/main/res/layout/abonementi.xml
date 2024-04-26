@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#333333"
-    android:backgroundTint="#333333"
+    android:background="@color/fon"
     tools:context=".Abonementi">
 
     <ImageView
@@ -24,7 +23,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Меню"
+        android:text="@string/menu"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +37,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Абонементы"
+        android:text="@string/abonementi"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
