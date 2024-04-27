@@ -1,8 +1,9 @@
+package com.example.pr_22_106_km;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class BDHelper extends SQLiteOpenHelper {
+public class DBHelper extends SQLiteOpenHelper {
     public static final int DATABASE_VERSION = 1;
     public static final String DATABASE_NAME = "contactDB";
     public static final String TABLE_USER = "user";
@@ -14,7 +15,7 @@ public class BDHelper extends SQLiteOpenHelper {
     public static final String TABLE_TEACHER = "teacher";
     public static final String TABLE_SCHEDULE = "schedule";
 
-    public BDHelper(Context context, String name, int version) {
+    public DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
@@ -22,6 +23,11 @@ public class BDHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("create table " + TABLE_USER + "(" + KEY_ID + " integer primary key,"
                 + KEY_NAME + " text, " + KEY_SURNAME + " text, " + KEY_NUMBER + " integer" + ")");
+
+        db.execSQL("INSERT INTO " + TABLE_USER +
+         "(" + KEY_NAME + ", " + KEY_SURNAME + ", " + KEY_NUMBER + ")" +
+                " VALUES " + "(" + "Марина" + ", " + "Кошелевская"  + ", " + "89137987546" + ")");
+
 
     }
 

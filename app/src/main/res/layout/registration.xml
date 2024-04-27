@@ -9,10 +9,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="252dp"
-        android:layout_height="63dp"
-        android:layout_marginBottom="164dp"
-        android:text="Button"
+        android:layout_width="258dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/rectangle_24"
+        android:text="@string/Voiti"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:backgroundTint="@drawable/rectangle_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -20,33 +24,36 @@
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="289dp"
-        android:layout_height="52dp"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.371" />
+        app:layout_constraintVertical_bias="0.52" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextPassword"
         android:layout_width="287dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="272dp"
+        android:layout_height="56dp"
+        android:background="@color/white"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#000000"
         android:outlineSpotShadowColor="@color/fon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,5 +62,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.055"
         app:srcCompat="@drawable/log" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="305dp"
+        android:layout_height="57dp"
+        android:text="@string/Privetstvie"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

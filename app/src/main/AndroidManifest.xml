@@ -13,6 +13,14 @@
         android:theme="@style/Theme.Pr_22_106_km"
         tools:targetApi="31">
         <activity
+            android:name=".Munu"
+            android:exported="false"
+            android:label="@string/title_activity_munu"
+            android:theme="@style/Theme.Pr_22_106_km.NoActionBar" />
+        <activity
+            android:name=".Kontakti"
+            android:exported="false" />
+        <activity
             android:name=".Registration"
             android:exported="false" />
         <activity
